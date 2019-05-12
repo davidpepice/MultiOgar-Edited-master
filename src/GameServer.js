@@ -54,7 +54,7 @@ function GameServer() {
         serverTimeout: 300, // Seconds to keep connection alive for non-responding client
         serverWsModule: 'ws', // WebSocket module: 'ws' or 'uws' (install npm package before using uws)
         serverMaxConnections: 500, // Maximum number of connections to the server. (0 for no limit)
-        serverPort: 443, // Server port which will be used to listen for incoming connections
+        serverPort: 8080, // Server port which will be used to listen for incoming connections
         serverBind: '0.0.0.0', // Server network interface which will be used to listen for incoming connections (0.0.0.0 for all IPv4 interfaces)
         serverTracker: 0, // Set to 1 if you want to show your server on the tracker http://ogar.mivabe.nl/master (check that your server port is opened for external connections first!)
         serverGamemode: 0, // Gamemodes: 0 = FFA, 1 = Teams, 2 = Experimental, 3 = Rainbow
