@@ -54,7 +54,7 @@ function GameServer() {
         serverTimeout: 300, // Seconds to keep connection alive for non-responding client
         serverWsModule: 'ws', // WebSocket module: 'ws' or 'uws' (install npm package before using uws)
         serverMaxConnections: 500, // Maximum number of connections to the server. (0 for no limit)
-        serverPort: 80, // Server port which will be used to listen for incoming connections
+        serverPort: 8000, // Server port which will be used to listen for incoming connections
         serverBind: '0.0.0.0', // Server network interface which will be used to listen for incoming connections (0.0.0.0 for all IPv4 interfaces)
         serverTracker: 0, // Set to 1 if you want to show your server on the tracker http://ogar.mivabe.nl/master (check that your server port is opened for external connections first!)
         serverGamemode: 0, // Gamemodes: 0 = FFA, 1 = Teams, 2 = Experimental, 3 = Rainbow
@@ -63,7 +63,7 @@ function GameServer() {
         serverViewBaseY: 1080, // min value is 1920x1080
         serverMinScale: 0.15, // Minimum viewbox scale for player (low value leads to lags due to large visible area for big cell)
         serverSpectatorScale: 0.4, // Scale (field of view) used for free roam spectators (low value leads to lags, vanilla = 0.4, old vanilla = 0.25)
-        serverStatsPort: 88, // Port for stats server. Having a negative number will disable the stats server.
+        serverStatsPort: 8888, // Port for stats server. Having a negative number will disable the stats server.
         serverStatsUpdate: 60, // Update interval of server stats in seconds
         mobilePhysics: 0, // Whether or not the server uses mobile agar.io physics
         badWordFilter: 1, // Toggle whether you want the bad word filter on (0 to disable, 1 to enable)
