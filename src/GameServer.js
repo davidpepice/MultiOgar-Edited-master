@@ -63,7 +63,7 @@ function GameServer() {
         serverViewBaseY: 1080, // min value is 1920x1080
         serverMinScale: 0.15, // Minimum viewbox scale for player (low value leads to lags due to large visible area for big cell)
         serverSpectatorScale: 0.4, // Scale (field of view) used for free roam spectators (low value leads to lags, vanilla = 0.4, old vanilla = 0.25)
-        serverStatsPort: 8888, // Port for stats server. Having a negative number will disable the stats server.
+        serverStatsPort: 88, // Port for stats server. Having a negative number will disable the stats server.
         serverStatsUpdate: 60, // Update interval of server stats in seconds
         mobilePhysics: 0, // Whether or not the server uses mobile agar.io physics
         badWordFilter: 1, // Toggle whether you want the bad word filter on (0 to disable, 1 to enable)
