@@ -36,8 +36,4 @@ src/.settings/org.eclipse.wst.jsdt.ui.superType.name
 # Linux start script warning file
 src/.readwarning
 
-# Prevent possible banned IP address leak
-src/ipbanlist.txt
 
-# Prevent user settings overwrite
-src/gameserver.ini
