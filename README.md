@@ -55,8 +55,7 @@ sudo apt-get install git
 sudo apt-get install nodejs-legacy npm
 
 # Clone MultiOgar-Edited:
-git clone git://github.com/Megabyte918/MultiOgar-Edited.git original!
-git clone git://github.com/davidpepice/MultiOgar-Edited-master.git copia
+git clone git://github.com/davidpepice/MultiOgar-Edited-master.git
 # Install dependencies:
 cd MultiOgar-Edited
 npm install
